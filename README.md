@@ -15,7 +15,18 @@ Data preprocessing :
 
 4.Standardization of data
 
+5.Feature selection
+
 # Prediction Model results :
+I have used three prediction models to predict the customer churn those models are:
+
+•	Logistic regression
+
+•	Gradient boosting
+
+•	Random forest classifier
+
+results are as follows
 
 
 
@@ -26,7 +37,6 @@ Data preprocessing :
 Prediction models observations
 
 Among all the prediction models Random forest model has given highest accuracy of 98 % to predict customer churn. therefore we can use random forest model for the prediction of customer churn.
-The top 5 important features to predict the customer churn according to random forest model are balance,age,day,campaign and pdays.
 The limitations of using a Random Forest model to predict customer churn are:
 
 Random Forest models are prone to overfitting, which can lead to inaccurate predictions.
